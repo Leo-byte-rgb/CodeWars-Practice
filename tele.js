@@ -12,7 +12,7 @@ function createPhoneNumber(arr) {
         if (i === 0) newString+= '(';
         if (i === 3) newString+= ')' + ' ';
         if (i === 6) newString+= '-';
-
+ 
         newString += arr[i]
         
     }
